@@ -11,7 +11,7 @@ Explanation: First three elements are in the ascending order and next three elem
 Example 2:
 Input: 4 2 8 6 15 5 9 20
 Output: 2 4 5 6 20 15 9 8
- */
+*/
 
 import java.util.Arrays;
 

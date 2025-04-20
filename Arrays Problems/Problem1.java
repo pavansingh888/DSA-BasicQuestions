@@ -17,13 +17,13 @@ Explanation: 5 is the smallest element in the array.
 // import java.util.Arrays;
 
 public class Problem1 {
-    //*Approach 1 - O[nlogn] - TimSort makes use of the Insertion sort and the MergeSort algorithms */
+    //*Approach 1- O[nlogn] - TimSort makes use of the Insertion sort and the MergeSort algorithms */
     // static void smallestElement(int arr[]){
     //    Arrays.sort(arr);
     //    System.out.println(arr[0]);
     // }
 
-    //* Approach 2 - O[n] */
+    //*Approach 2- O[n] */
  static void smallestElement(int arr[]){
       int smallest=arr[0];
       

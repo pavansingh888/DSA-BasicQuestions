@@ -33,7 +33,7 @@ public class Problem5 {
         for (int i = 0; i < n; i++) {
             if(visited[i]==true)
             continue;
-
+  
             int count=1;
             for (int j = i+1; j < n; j++) {
                 if(arr[i]==arr[j]){
@@ -47,7 +47,8 @@ public class Problem5 {
     }
 
     // * A-2 - Using Map(HashMap)
-    /*What is a Map?
+    /*
+    What is a Map?
       A Map is an object that maps keys to values.
       A Map cannot contain duplicate keys; each key can map to at most one value.
 
@@ -63,7 +64,7 @@ public class Problem5 {
     Map.Entry is a nested interface within the Map interface. It represents a single key-value pair (an entry) in a map.
      */
     static void countFrequencyMap(int arr[], int n){
-        Map<Integer,Integer> map=new HashMap<>();
+        Map<Integer,Integer> map = new HashMap<>();
 
         for (int i = 0; i < n; i++) {
             if(map.containsKey(arr[i])){

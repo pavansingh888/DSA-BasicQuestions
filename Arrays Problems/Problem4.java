@@ -19,12 +19,12 @@ import java.util.Collections;
 public class Problem4 {
     // * A-1 -  While or for loop for n/2 traversal. O[n]
     //DIY
-    static void printArray(int arr[], int n) {
-        System.out.print("Reversed array is:- \n");
-        for (int i = 0; i < n; i++) {
-           System.out.print(arr[i] + " ");
-        }
-     }
+   //  static void printArray(int arr[], int n) {
+   //      System.out.print("Reversed array is:- \n");
+   //      for (int i = 0; i < n; i++) {
+   //         System.out.print(arr[i] + " ");
+   //      }
+   //   }
 
      static void printArray(Integer arr[], int n) {
         System.out.print("Reversed array is:- \n");
@@ -48,11 +48,11 @@ public class Problem4 {
 
 Since this method expects an object as a parameter we have to convert the array into a list object using asList().
 Java collections require wrapper classes instead of primitive data types. In order to reverse an integer array use Integer instead of int.
-Syntax: Collections.reverse(class_obj);  */
+Syntax: Collections.reverse(class_obj); */
  static void reverseArray(Integer arr[]) {
       //fetching array as list object
       //reversing the fetched object
-      Collections.reverse(Arrays.asList(arr));
+      Collections.reverse(Arrays.asList(arr)); //*LEARN */
    }
 
      public static void main(String[] args) {
